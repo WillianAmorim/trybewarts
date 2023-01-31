@@ -6,11 +6,32 @@
 header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   height: 6rem;
   background-color: rgb(50, 167, 145);
 }
 
 .trybewarts-header-logo {
   width: 70px;
-  align-self: center;
+}
+
+.trybewarts-login {
+  display: flex;
+  height: 2.5rem;
+  gap: 15px;
+}
+
+.input-header {
+  width: 8rem;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#button-header {
+  width: 8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
 }
