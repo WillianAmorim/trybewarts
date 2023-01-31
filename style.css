@@ -9,13 +9,13 @@ header {
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  height: 5rem;
+  height: 4rem;
   background-color: rgb(50, 167, 145);
 }
 
 /* TAMANHO DA IMAGEM */
 .trybewarts-header-logo {
-  width: 70px;
+  width: 50px;
 }
 
 /* FORM HEADER  */
@@ -44,15 +44,21 @@ header {
 
 main {
   display: flex;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1rem;
+  gap: 50px;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  background-color: blueviolet;
 }
 
 /* IMAGEM DA TAG MAIN  */
 #trybewarts-forms-logo {
   height: 500px;
+  background-color: blue;
 }
