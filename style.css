@@ -13,16 +13,19 @@ header {
   background-color: rgb(50, 167, 145);
 }
 
+/* TAMANHO DA IMAGEM */
 .trybewarts-header-logo {
   width: 70px;
 }
 
+/* FORM HEADER  */
 .trybewarts-login {
   display: flex;
   height: 2.5rem;
   gap: 15px;
 }
 
+/* INPUTS DO HEADER  */
 .input-header {
   width: 8rem;
   border: none;
@@ -30,6 +33,7 @@ header {
   padding: 10px;
 }
 
+/* BUTTON DO HEADER  */
 #button-header {
   width: 8rem;
   border: none;
