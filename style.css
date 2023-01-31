@@ -9,7 +9,7 @@ header {
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  height: 6rem;
+  height: 5rem;
   background-color: rgb(50, 167, 145);
 }
 
@@ -40,4 +40,19 @@ header {
   border-radius: 5px;
   background-color: purple;
   color: white;
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+/* IMAGEM DA TAG MAIN  */
+#trybewarts-forms-logo {
+  height: 500px;
 }
