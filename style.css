@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(220, 226, 226);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -53,7 +57,7 @@ main {
 
 #evaluation-form {
   display: flex;
-  width: 675px;
+  width: 50rem;
   flex-direction: column;
   background-color: blueviolet;
   padding: 15px;
@@ -61,7 +65,7 @@ main {
 
 /* IMAGEM DA TAG MAIN  */
 #trybewarts-forms-logo {
-  height: 500px;
+  height: 32rem;
   background-color: blue;
 }
 
@@ -82,4 +86,20 @@ main {
 
 #house {
   width: 14.5rem;
+  background-color: white;
+}
+
+#line-division {
+  margin-top: 20px;
+  border-bottom: 1px solid;
+}
+
+#label-family{
+  display: flex;
+  flex-direction: column;
+  background-color: chartreuse;
+}
+
+ul {
+  list-style: none;
 }
