@@ -88,14 +88,14 @@ main {
 }
 
 #line-division {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   border-bottom: 1px solid;
 }
 
 .section-questions {
   display: flex;
-  height: 7rem;
+  height: 6rem;
 }
 
 #label-family{
@@ -147,6 +147,19 @@ main {
 
 #label-radio {
   margin-left: 1px;
+}
+
+.section-text-area {
+  margin-top: 15px;
+  display: flex;
+}
+
+.label-text-area {
+  margin-right: 20px;
+}
+
+#text-area {
+  width: 25rem;
 }
 
 
