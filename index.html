@@ -25,6 +25,9 @@
 
     <form id="evaluation-form" action="">
 
+    <h1>Formulário de avaliação</h1>
+
+
       <section class="container-input">
 
         <input class="input-form" type="text" name="" id="input-name" placeholder="Nome">
@@ -138,16 +141,21 @@
 
         <label class="label-text-area" for="text-area">Deixe seu comentário:</label>
 
-        <textarea name="" id="text-area" cols="40" rows="9" maxlength="500"></textarea>
+        <textarea name="" id="text-area" cols="40" rows="5" maxlength="500"></textarea>
 
       </section>
       
+      <label id="label-infos" for="">Você concorda com o uso das informações acima?
+        <input type="checkbox" name="" id="input-check-infos">
+      </label>
 
+      <button id="submit-btn" type="submit">Enviar</button>
     </form>
 
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
-    
+
   </main>
+  <footer>Direitos reservados à Trybewarts@</footer>
 </body>
 <script src="./script.js"></script>
 </html>
