@@ -94,7 +94,12 @@ main {
   border-bottom: 1px solid;
 }
 
+.section-questions {
+  display: flex;
+}
+
 #label-family{
+  width: 30rem;
   display: flex;
   flex-direction: column;
   background-color: chartreuse;
@@ -103,3 +108,11 @@ main {
 ul {
   list-style: none;
 }
+
+.label-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
