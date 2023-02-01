@@ -49,7 +49,7 @@
         <label id="label-family" for="">
           Qual sua família?
           
-          <ul>
+          <ul class="list-input-radio">
             <li><input type="radio" name="family" id="" value="FrontEnd"/>FrontEnd</li>
             <li><input type="radio" name="family" id="" value="Backend"/>Backend</li>
             <li><input type="radio" name="family" id="" value="Fullstack"/>Fullstack</li>
@@ -59,13 +59,36 @@
         <label id="label-content" for="">
           Qual conteúdo você está com mais vontade de aprender?
 
-          <ul>
-            <li><input type="checkbox">HoFs</li>
-            <li><input type="checkbox">Jest</li>
-            <li><input type="checkbox">Promises</li>
-            <li><input type="checkbox">React</li>
-            <li><input type="checkbox">SQL</li>
-            <li><input type="checkbox">Python</li>
+          <ul class="list-input-checkbox">
+            <li>
+              <input id="hofs" type="checkbox">
+              <label class="label-input" for="hofs">HoFs</label>
+            </li>
+
+            <li>
+              <input id="jest" type="checkbox">
+              <label class="label-input" for="jest">Jest</label>
+            </li>
+
+            <li>
+              <input id="promisses" type="checkbox">
+              <label class="label-input" for="promisses">Promises</label>
+            </li>
+
+            <li>
+              <input id="react" type="checkbox">
+              <label class="label-input" for="react">React</label>
+            </li>
+
+            <li>
+              <input id="SQL" type="checkbox">
+              <label class="label-input" for="SQL">SQL</label>
+            </li>
+
+            <li>
+              <input id="Python" type="checkbox">
+              <label class="label-input" for="Python">Python</label>
+            </li>
           </ul>
 
         </label>
