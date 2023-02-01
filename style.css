@@ -136,3 +136,17 @@ main {
 .list-input-checkbox > li {
   margin: 3px;
 }
+
+#label-rate {
+  display: flex;
+}
+
+#list-input-radio {
+  margin-left: 20px;
+}
+
+#label-radio {
+  margin-left: 1px;
+}
+
+
